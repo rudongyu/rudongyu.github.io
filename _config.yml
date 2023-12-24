@@ -21,7 +21,7 @@ permalink: /:categories/:title
 excerpt_separator: "[-----]"
 
 url: # Required: replace this with your domain
-name: textalic # Required: will be displayed on every page's header
+name:  # Required: will be displayed on every page's header
 title: site title # Required: site's default title
 shout: # Required: **TWO** lines, will be displayed on page's header.
   - one liner one...
@@ -33,7 +33,7 @@ disqus:
   shortname:  # Required if you use disqus. Replace with your disqus shortname here
 
 gitalk:
-  comments: true # Global toggle on/off gitalk comment
+  comments: false # Global toggle on/off gitalk comment
   # replace all of those below with your own
   client_id: baeea51800be67550b52
   client_secret: 4a521ccafa96b8b2b128659c35468bdd7ba5d4aa
